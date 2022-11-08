@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf1c086-f0f7-4e21-b8bc-dcfe23a44bde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Scrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/matthew/allegrowebscrapper/testing/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/AllTests.tng.xml" afterDir="false" />
+    <list default="true" id="cdf1c086-f0f7-4e21-b8bc-dcfe23a44bde" name="Changes" comment="allegro web scrapper">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Scrapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +41,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -85,8 +75,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667850467920</updated>
-      <workItem from="1667850468992" duration="5518000" />
+      <workItem from="1667850468992" duration="15490000" />
     </task>
+    <task id="LOCAL-00001" summary="allegro web scrapper">
+      <created>1667858508102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667858508102</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="allegro web scrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="allegro web scrapper" />
   </component>
 </project>
