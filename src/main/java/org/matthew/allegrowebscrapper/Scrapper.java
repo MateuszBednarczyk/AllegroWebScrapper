@@ -29,7 +29,7 @@ public class Scrapper {
             scrapDocument(i);
             document.getElementsByTag("article").forEach(element -> {
                 String title = element.getElementsByClass("_w7z6o _uj8z7 meqh_en mpof_z0 mqu1_16 m6ax_n4 _6a66d_LX75-  ").text();
-                Double price = processPrice(element.getElementsByClass("mpof_92 myre_zn").text());
+                String price = processPrice(element.getElementsByClass("mpof_92 myre_zn").text());
                 String link = element.getElementsByClass("_w7z6o _uj8z7 meqh_en mpof_z0 mqu1_16 m6ax_n4 _6a66d_LX75-  ").attr("href");
                 String page = element.getElementsByClass("_14uqc _1r8rh mzmg_6m m3h2_8 _cc6ig _6d89c_3ISNX").attr("value");
                 Article article = new Article(title, price, link, page);
@@ -44,7 +44,7 @@ public class Scrapper {
         return Jsoup.parse(htmlPage.asXml());
     }
 
-    public Double processPrice(String price) {
+    public String processPrice(String price) {
         StringBuilder priceHolder = new StringBuilder("");
         for (char c : price.toCharArray()) {
             if (Character.isDigit(c)) {
@@ -55,7 +55,7 @@ public class Scrapper {
                 System.out.println("Found useless char: " + c);
             }
         }
-        return Double.parseDouble(priceHolder.toString());
+        return priceHolder.toString();
     }
 
     private HtmlPage getHtmlPage(int actualPage) throws IOException {

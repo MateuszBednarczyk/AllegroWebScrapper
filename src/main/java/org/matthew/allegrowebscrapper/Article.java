@@ -2,11 +2,11 @@ package org.matthew.allegrowebscrapper;
 
 public class Article {
     String name;
-    Double price;
+    String  price;
     String link;
     String page;
 
-    public Article(String name, Double price, String link, String page) {
+    public Article(String name, String price, String link, String page) {
         this.name = name;
         this.price = price;
         this.link = link;

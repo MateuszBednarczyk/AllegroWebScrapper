@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf1c086-f0f7-4e21-b8bc-dcfe23a44bde" name="Changes" comment="allegro web scrapper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matthew/allegrowebscrapper/Scrapper.java" afterDir="false" />
     </list>
@@ -75,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667850467920</updated>
-      <workItem from="1667850468992" duration="15490000" />
+      <workItem from="1667850468992" duration="17989000" />
     </task>
     <task id="LOCAL-00001" summary="allegro web scrapper">
       <created>1667858508102</created>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667858508102</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="allegro web scrapper">
+      <created>1667909874831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667909874831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
